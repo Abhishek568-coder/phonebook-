@@ -23,9 +23,9 @@
 
   // fallback initial data (used if fetch fails)
   const initialContacts = [
-    { id: "1", name: "Alice Johnson", phone: "+91 98765 43210", email: "alice@example.com" },
-    { id: "2", name: "Bob Kumar", phone: "+91 98765 11223", email: "bob@example.net" },
-    { id: "3", name: "Carol Singh", phone: "+91 98400 22334", email: "carol@example.org" }
+    { id: "1", name: "Alice ", phone: "+91 98765 43210", email: "alice@example.com" },
+    { id: "2", name: "Ravi", phone: "+91 98765 11223", email: "Ravi@example.net" },
+    { id: "3", name: "Sabu", phone: "+91 98400 22334", email: "Sabu@example.org" }
   ];
 
   let contacts = [];
@@ -238,3 +238,4 @@
     });
   });
 })();
+
